@@ -1,0 +1,571 @@
+@import url('https://darmanzel.com/assets/css/fontiran.css');
+.container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.mytooltip p{
+  color:#757575;
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 500;
+  text-align: right;
+}
+.custom-select{
+  border-bottom: 1px solid #ced4da;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  margin-top: 27px;
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: bold;
+  color: #757575;
+  width: 101% !important;
+  padding: 0.375rem 0.0rem .375rem .75rem !important;
+  background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat left .75rem center/8px 10px !important;
+}
+.custom-select:focus{
+  border-bottom: 1px solid #ced4da;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: bold;
+  color: #757575;
+  padding: 0.375rem 0.75rem .375rem .75rem !important;
+}
+.custom-select:focus option:hover{
+  background-color: #fff !important;
+}
+.custom-control.custom-checkbox{padding-left: 0;}
+
+label.custom-control-label {
+  position: relative;
+  padding-right: 1.5rem;
+}
+.custom-label{
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+}
+.footer-logo{
+  width: 130px;
+  height: 130px;
+  margin:0 auto;
+}
+.footer-logo img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.navbar-logo{
+  width: 50px;
+  height: 50px;
+  margin:0 auto;
+}
+.navbar-logo img{
+  width: 100%;
+  height: 100%;
+}
+
+label.custom-control-label::before, label.custom-control-label::after{
+  right: 0;
+  left: auto;
+  top:6px !important;
+}
+.mt0{margin-top:0px !important;}
+.mt5{margin-top:5px !important;}
+.mt10{margin-top:10px !important;}
+.mt15{margin-top:15px !important;}
+.mt20{margin-top:20px !important;}
+.mt25{margin-top:25px !important;}
+.mt30{margin-top:30px !important;}
+.mt35{margin-top:35px !important;}
+.mt40{margin-top:40px !important;}
+.mt50{margin-top:50px !important;}
+.mt60{margin-top:60px !important;}
+.mt70{margin-top:70px !important;}
+.mb40{margin-bottom:40px !important;}
+.mb30{margin-bottom:30px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb10{margin-bottom:10px !important;}
+.mtb20{margin-top: 20px !important; margin-bottom: 20px !important;}
+.jc-center{justify-content: center !important;}
+
+body{
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+.info-ways p{
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 500;
+  color: #464646;
+  margin-right: 28px;
+  font-size: 18px;
+}
+.info-ways span{
+  color: #f05454;
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: bold;
+}
+.showit{
+  visibility: visible !important;
+}
+.icon-grapick{
+  color: #fff;
+  background: #0977ff;
+  padding: 11px;
+  border-radius: 10px 29px 10px 29px;
+}
+.navbar-nav li{
+  text-align: right !important;
+}
+.navbar-nav{
+  padding-right: 15px !important;
+}
+.inhome-img{
+  width: 200px;
+  height: 200px;
+}
+.quotes img{
+  width:140px;
+  height: 130px;
+  color:#f7f7f7;
+}
+.about-text p{
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  color:#5d5b5b;
+}
+.customdiv-x{
+  margin-top: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align:center;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  width: 90% !important;
+  margin-right: 29px !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+}
+.customdiv-x::before{
+  content: "";
+  background-image: url('https://darmanzel.com/assets/images/labtwo.png');
+  background-size:70% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.20;
+}
+.customdiv-y{
+  margin-top: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align:center;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  width: 90% !important;
+  margin-right: 29px !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+}
+.customdiv-y::before{
+  content: "";
+  background-image: url('https://darmanzel.com/assets/images/user.png');
+  background-size:auto 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.20;
+}
+.mycolor{
+  background-color: #fff !important;
+  z-index: 999;
+}
+.swiper-slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.pagination .page-item.active .page-link{
+  background-color: #f05454 !important;
+}
+.social-icon:hover{
+  color: #f05454 !important;
+}
+.navbar-nav a{
+  color:#757575 !important;
+  transition: 0s !important;
+  transition: 0s !important;
+  margin-left:20px !important;
+}
+.navbar-nav a:hover{
+  color:#f05454 !important;
+  transition: 0s !important;
+}
+.headsec{
+  height: 100%;
+  width: 100%;
+  margin-top: 0px !important;
+  top:0 !important;
+  background-color: #fff;
+}
+.blue-side{
+  width:100%;
+  height: 100%;
+  margin-top: 0px !important;
+  top:0 !important;
+  background-color: gray;
+}
+.navbar-brand{
+  color:#f05454 !important;
+  transition: 0s !important;
+}
+.headpic{
+  width: 100%;
+  height: 100%;
+}
+.headpic-parent{
+  margin-top:55px;
+}
+
+.carouse{
+  margin-top:0px !important;
+  background-color: #fff;
+  /* border-bottom-left-radius: 70px !important;
+  border-bottom-right-radius: 70px !important; */
+}
+.whyus-text{
+  color:#f05454;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  z-index: 1;
+  margin-top:120px;
+}
+.intro-text{
+  color:#f05454 !important;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  z-index: 999;
+  text-align: center;
+  margin-top:4px;
+  line-height: 60px !important;
+  position: relative;
+}
+.intro-text-s{
+  color:#f05454 !important;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  z-index: 999;
+  text-align: center;
+  margin-top:10px;
+  line-height: 60px !important;
+}
+.intro-text-a{
+  color:#33b5e5 !important;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  z-index: 999;
+  text-align: center;
+  margin-top:4px;
+  line-height: 60px !important;
+  position: relative;
+}
+.customdiv{
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 10px;
+}
+.custom-info h2{
+  color:#f05454;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.custom-info h5{
+  color:#f05454;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+}
+.custom-info h1{
+  color:#848383;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.presc-image{
+  text-align: center !important;
+}
+.presc-image img{
+  text-align: center !important;
+  width:400px !important;
+  height: 300px !important;
+
+}
+.text-center{
+  text-align:center !important;
+}
+.custom-info p{
+  color:#8e8d8d;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: 500;
+  margin-top:5px;
+  text-align: center;
+}
+.intro-btn{
+  font-size:15px;
+  margin-top: 235px !important;
+  position: absolute;
+  display: inline-block;
+  background-color: #f05454 !important;
+  color: #fff;
+}
+.intro-btn-b:hover{
+  color:#fff !important;
+}
+.intro-btn-b{
+  font-size:15px;
+  display: inline-block;
+  background-color: #f05454 !important;
+  color: #fff;
+}
+.intro-btn:hover{
+  color:#fff !important;
+}
+.desc-btn{
+  font-size:15px;
+  margin-top: 235px !important;
+  position: absolute;
+  display: inline-block;
+}
+.desc-text{
+  color:#8e8d8d;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 29px !important;
+  margin-top:4px;
+  line-height: 30px;
+
+}
+.desc-text-a{
+  color:#8e8d8d;
+  font-family: IRANSans !important;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 0px !important;
+  margin-top:4px  ;
+  line-height: 30px;
+}
+.black-cover{
+  position: absolute;
+  background-color: #00000003;
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px;
+  width: 100%;
+  height: 300px;
+}
+.bg-image img{
+  margin-left:0px !important;
+  left:0px !important;
+  width: 100%;
+}
+.cardbox{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  /* padding: 25px; */
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  padding: 40px 40px 40px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.cardbox_icon{
+  margin-top:-15px;
+}
+.cardbox_text{
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+.cardbox_desc p{
+  color: #fff;
+  margin-top: 13px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+.second-into-btn{
+  font-size:15px;
+  margin-right: 29px !important;
+  background-color: #f05454 !important;
+  color: #fff;
+}
+.cardbox:hover{
+  background-color:#888786 !important;
+  transition: 0.5s;
+}
+.card-title{
+  color:#f05454 !important;
+  font-family: IRANSans !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  z-index: 1 !important;
+  text-align: center !important;
+}
+.foothover:hover{
+  color:#f05454 !important;
+  cursor: pointer;
+}
+.foothover:hover a{
+  color:#f05454 !important;
+  cursor: pointer;
+}
+ul{
+  list-style: none !important;
+}
+.card-text{
+  color:#8e8d8d !important;
+  font-family: IRANSans !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  z-index: 1 !important;
+  text-align: right !important;
+  margin-top:10px !important;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 400px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev{
+  right: -1px !important;
+  color:#f05454 !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-next{
+  left: -1px !important;
+  color:#f05454 !important;
+}
+.btn.btn-lg{
+  padding: 1.5rem 2.4rem !important;
+  font-size: 1.15rem !important;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-nav li{
+    text-align: right !important;
+  }
+  .customdiv-x::before{
+    content: "";
+    background-image: url('https://darmanzel.com/assets/images/labtwo.png');
+    background-size:90% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.20;
+  }
+  .customdiv-y::before{
+    content: "";
+    background-image: url('https://darmanzel.com/assets/images/user.png');
+    background-size:90% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.20;
+  }
+  .intro-btn{
+    font-size:15px;
+    margin-top: 300px !important;
+    position: absolute;
+    display: inline-block;
+    background-color: #f05454 !important;
+    color: #fff;
+  }
+
+  .desc-btn{
+    font-size:15px;
+    margin-top: 300px !important;
+    position: absolute;
+    display: inline-block;
+  }
+  .about-text p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

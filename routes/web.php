@@ -18,7 +18,11 @@ Route::get('/', function () {
 });
 
 
-Route::get('/kian',"HomeController@pdf");
+Route::get('/kian',function ()
+{
+    dd(session()->all());
+
+});
 
 
 Auth::routes();
